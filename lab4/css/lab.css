@@ -8,6 +8,13 @@ h2{
   color: #0abab5;
   font-size: 180%;
 }
+
+h3{
+  outline: 5px dotted pink;
+}
+div.a{
+  outline: 2px dashed blue;
+}
 p{
   text-align:center;
   font-family: "Arial";
