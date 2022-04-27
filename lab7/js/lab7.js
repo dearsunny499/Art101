@@ -1,4 +1,3 @@
-*/
 
 // sortUserName - a function that takes user input and sorts the letters
 // of their sortUserName
