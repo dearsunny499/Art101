@@ -23,4 +23,4 @@ var result = array.map(function(x){
     return x ** 0.5;
 })
 // should return {10, 9, 2, 4, 6.480740786, 12,100}
-console.log("Squaroot of array:", result);
+console.log("Squaroot of array:", result)
