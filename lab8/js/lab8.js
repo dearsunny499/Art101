@@ -24,3 +24,6 @@ var result = array.map(function(x){
 })
 // should return {10, 9, 2, 4, 6.480740786, 12,100}
 console.log("Squaroot of array:", result);
+
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = result; // put your results here
