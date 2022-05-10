@@ -1,26 +1,17 @@
 h1{
-  text-align:center;
   color: pink;
   font-size: 180%;
 }
-h2{
-  text-align:center;
+h2
   color: #0abab5;
   font-size: 180%;
 }
 p{
-  text-align:center;
   font-family: "Arial";
   color: orange;
   tex-indent: 18px;
-
 }
 
-img{
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
-  width: 200px;
 }
 #content{
   background-color: #000000;
@@ -30,7 +21,4 @@ img{
   margin: 10px;
   border: solid 1px #00FF00;
   font-size: 20px;
-}
-ul{
-  text-align:center;
 }

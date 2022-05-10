@@ -8,8 +8,7 @@ var nameField = document.getElementById('name');
 var submitButton = document.getElementById('submit-button');
 var outputText = document.getElementById("output");
 
-function sortUserName() {
-  var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
+function sortUserName(userName) {
   console.log("useName =", userName);
   // split string to array
   var nameArray = userName.split('');
