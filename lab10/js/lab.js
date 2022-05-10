@@ -26,7 +26,7 @@ function sortUserName() {
 }
 
 
-submitButton.addEventLIstener('click', function(){
+submitButton.addEventListener('click', function(){
   var name = nameField.value;
   new1El = document.createElement("p");
   new1El.innerHTML = sortUserName(name);
