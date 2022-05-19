@@ -1,0 +1,25 @@
+h1{
+  color: Red;
+  font-size: 180%;
+}
+h2{
+  color: BLUE;
+  font-size: 180%;
+}
+p{
+  font-family: "Arial";
+  color: orange;
+  tex-indent: 18px;
+}
+
+
+
+#content{
+  background-color: pink;
+  width: 600px;
+  min-height:300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #00FF00;
+  font-size: 20px;
+}
