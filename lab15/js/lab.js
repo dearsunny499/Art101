@@ -10,10 +10,14 @@ var output = document.getElementById("output");
 requestButton.addEventListener("click", function () {
   $.ajax({
     type: "GET",
-    url: "http://worldtimeapi.org/api/timezone/Europe/London",
+    url: "http://worldtimeapi.org/api/timezone/America/Los_Angeles",
     success: function (data) {
       console.log(data.datetime);
       output.innerHTML = data.datetime;
+    },
+    error: function () {
+      console.log("Fail Loading API");
+      output.innerHTML = "Fail LA API";
     },
   });
 });
