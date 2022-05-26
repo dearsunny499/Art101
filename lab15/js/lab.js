@@ -15,9 +15,5 @@ requestButton.addEventListener("click", function () {
       console.log(data.datetime);
       output.innerHTML = data.datetime;
     },
-    error: function () {
-      console.log("Fail Loading API");
-      output.innerHTML = "Fail Loading API";
-    },
   });
 });
